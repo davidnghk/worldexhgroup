@@ -10,21 +10,21 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="fill" style="background-image:url(/assets/LED3.jpg);"></div>
             <div class="carousel-caption">
-                <h2>Caption 1</h2>
+              <h2> <%= t :led_exhibition %> </h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <div class="fill" style="background-image:url(/assets/furniture1.jpg);"></div>
             <div class="carousel-caption">
-                <h2>Caption 2</h2>
+              <h2><%= t :furniture_exhibition %> </h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            <div class="fill" style="background-image:url(/assets/machinery3.jpg);"></div>
             <div class="carousel-caption">
-                <h2>Caption 3</h2>
+              <h2> <%= t :machinery_exhibition %> </h2>
             </div>
         </div>
     </div>
@@ -45,39 +45,40 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                Welcome to Modern Business
+              <%= t :worldexh %>
             </h1>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :iran %> 2016</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                    <a href="#" class="btn btn-default">Learn More</a>
+                  <p><%= t :iran_econ %> </p>
+<!--                    <a href="#" class="btn btn-default">Learn More</a>-->
+                  <%= link_to t('learn_more'), iran_path, :class => 'btn btn-default' %>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                  <h4><i class="fa fa-fw fa-flag"></i> <%= t :india %> 2016</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                    <a href="#" class="btn btn-default">Learn More</a>
+                  <p><%= t :india_econ %> </p>
+                    <%= link_to t('learn_more'), india_path, :class => 'btn btn-default' %>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :brazil %> 2016</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                    <a href="#" class="btn btn-default">Learn More</a>
+                    <p><%= t :brazil_econ %>  </p>
+                    <%= link_to t('learn_more'), brazil_path, :class => 'btn btn-default' %>
                 </div>
             </div>
         </div>
@@ -87,68 +88,82 @@
     <!-- Portfolio Section -->
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Portfolio Heading</h2>
+          <h2 class="page-header"><%= t :exhibition %> </h2>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+<!--          <%= link_to page_path('portfolio-india') do %>-->
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smLED.jpg" alt="" title="L&E expo India 2016" >
+            <center><figcaption>L&E Expo</figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+<!--          <%= link_to page_path('portfolio-india') do %>-->
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smFurniture.jpg" alt="" title="IFFARE India 2016">
+            <center><figcaption>IFFARE</figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+<!--          <%= link_to page_path('portfolio-india') do %>-->
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smMachinery.jpg" alt="" title="CIFE India 2016">
+            <center><figcaption>ACIFE</figcaption></center><br>
+          <% end %>
+        </div>
+<!--
+        <div class="col-md-4 col-sm-6">
+          <%= link_to page_path('portfolio-brazil') do %>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED4.jpg" alt="" title="L&E expo Brazil 2016">
+            <center><figcaption>L&E Expo Brazil 2016</figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+          <%= link_to page_path('portfolio-brazil') do %>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED5.jpg" alt="" title="IFFARE Brazil 2016">
+            <center><figcaption>IFFARE Brazil 2016</figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+          <%= link_to page_path('portfolio-brazil') do %>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED6.jpg" alt="" title="CIFE expo Brazil 2016">
+            <center><figcaption>CIFE Expo Brazil 2016</figcaption></center><br>
           <% end %>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-item') do %>
-            <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-          <% end %>
-        </div>
+-->
     </div>
     <!-- /.row -->
 
     <!-- Features Section -->
+<!--
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Modern Business Features</h2>
+            <h2 class="page-header">L&E EXPO India 2016</h2>
         </div>
         <div class="col-md-6">
-            <p>The Modern Business template by Start Bootstrap includes:</p>
+            <p><strong>The exhibition venue</strong> Pragati Maidan:</p>
             <ul>
-                <li><strong>Bootstrap v3.2.0</strong>
-                </li>
-                <li>jQuery v1.11.0</li>
-                <li>Font Awesome v4.1.0</li>
-                <li>Working PHP contact form with validation</li>
-                <li>Unstyled page elements for easy customization</li>
-                <li>17 HTML pages</li>
+                <li><strong> Area:</strong> 15,000 Sq M </li>
+                <li><strong> E-Mail:</strong> berlinexh@163.com </li>   
+            </ul>
+          <p><strong>Organizers</strong></p>
+            <ul>
+                <li><strong> Organizer:</strong> Germany Exhibition Limited </li>
+                <li><strong> Organizer:</strong> WorldExh Group (HK) Limited </li>   
+                <li><strong> Co-Organizer:</strong> Shunde Lighting Industrial Association </li>   
+                <li><strong> India Co-Organizer:</strong> Indian Exhibition Services </li>   
+                <li><strong> Media Partners:</strong> New Fairs  58 Shanyou Qufair Zhan Koo </li>   
             </ul>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            <img class="img-responsive" src="/assets/india.jpg" alt="">
         </div>
     </div>
+-->
     <!-- /.row -->
 
     <hr>
 
     <!-- Call to Action Section -->
+<!--
     <div class="well">
         <div class="row">
             <div class="col-md-8">
@@ -159,6 +174,7 @@
             </div>
         </div>
     </div>
+-->
 
 </div>
 <!-- /.container -->
@@ -167,7 +183,7 @@
 <script>
 $(document).on('ready', function () {
   $('.carousel').carousel({
-      interval: 1000 //changes the speed
+      interval: 3000 //changes the speed
   })
 });
 </script>

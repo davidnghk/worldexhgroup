@@ -1,11 +1,11 @@
 <%# add navigation links to this file %>
-<li><%= link_to 'About', page_path('about') %></li>
-        <li>
-            <%= link_to 'Services', page_path('services') %>
-        </li>
-        <li>
-            <%= link_to 'Contact', page_path('contact') %>
-        </li>
+        <li><%= link_to t('contact'), page_path('about') %></li>
+        <li><%= link_to t('services'), page_path('services') %></li>
+        <li><%= link_to 'English', url_for( :locale => 'en' ) %></li>         
+        <li><%= link_to '中文', url_for( :locale => 'zh' ) %></li>
+
+<!--         <li><%= link_to 'Contact', page_path('contact') %></li> -->
+<!--
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -26,6 +26,8 @@
                 </li>
             </ul>
         </li>
+-->
+<!--
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -40,6 +42,8 @@
                 </li>
             </ul>
         </li>
+-->
+<!--
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -60,3 +64,4 @@
                 </li>
             </ul>
         </li>
+-->

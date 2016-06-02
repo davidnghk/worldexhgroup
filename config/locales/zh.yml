@@ -1,0 +1,72 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+zh:
+  hello: "Hello world"
+  edit_account: "编辑帐户"
+  sign_out: "登出"
+  contact: "联络我们"
+  services: "服务范围"
+  iran: "伊朗"
+  india: "印度"
+  brazil: "巴西"
+  worldexh: "广东世博"
+  learn_more: "详情"
+  led: "LED照明"
+  furniture: "家俱"
+  machinery: "机械"
+  hongkong: "香港"
+  southeastasia: "东南亚"
+  about: "关于我们"
+  our_team: "团队"
+  malaysia: "马来西亚"
+  china: "中国"
+  indonesia: "印度尼西亚"
+  homepage: "主页"
+  sales_team: "销售团队"
+  exhibition: "展览会"
+  led_exhibition: "LED照明展览会"
+  furniture_exhibition: "家俱展览会"
+  machinery_exhibition: "机械展览会"
+  population: "人口"
+  gdp: "国内生产总值"
+  per_capita: "人均收入"
+  export: "出口"
+  import: "进口"
+  
+  brazil_econ: "巴西经济"
+  india_econ: "印度经济"
+  iran_econ: "伊朗经济"
+  brazil_econ: "巴西是世界名义GDP第七大经济体。从2000年到2012年，巴西是世界上增长最快的主要经济体之一，拥有超过50％的年均GDP增长率。目前，拥有超过2.04亿和丰富的自然资源，人口，巴西是世界十大市场之一，生产上千万吨钢，2600万吨水泥，350万台电视机，和3万台冰箱。"
+  brazil_population: "2.4 亿"
+  brazil_gdp: "$1.9万亿"
+  brazil_per_capita: "$9,312"
+  brazil_export: "$800 亿"
+  brazil_import: "$500 亿"
+  india_econ: "印度是第七大国家按地区，第二人口大国（拥有120多十亿人），并在世界上人口最多的民主国家。首页古印度河流域文明和历史悠久的贸易路线和广阔帝国的一个地区，印度次大陆与它的商业和文化财富确定为它的悠久历史。目前，印度的经济是世界上第七大通过名义国内生产总值。在1991年之后以市场为基础的经济改革，印度成为增长最快的主要经济体之一;它被认为是一个新兴工业化国家。"
+  india_population: "12 亿"
+  india_gdp: "$8.03 兆"
+  
+  iran_econ: "伊朗是中东地区第二大的国家和18位居世界前列。伊朗是同时具有里海和印度洋的唯一国家是一个重大的地区和中部电力和其庞大的化石燃料储量 - 其中包括世界上最大的天然气供应和第四大探明石油储量相当的影响力在国际能源安全和世界经济。"
+  iran_population:  "78.4 百万"
+  iran_gdp:         "$10.2 亿"
+  iran_per_capita:  "$12,833"
+  india_per_capita: "$6,210"
