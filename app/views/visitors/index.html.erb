@@ -51,34 +51,36 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :iran %> 2016</h4>
+                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :iran %> 2016.8.2-5</h4>
                 </div>
                 <div class="panel-body">
-                  <p><%= t :iran_econ %> </p>
+<!--                  <p><%= t :iran_venue %> </p>-->
 <!--                    <a href="#" class="btn btn-default">Learn More</a>-->
-                  <%= link_to t('learn_more'), iran_path, :class => 'btn btn-default' %>
+<!--                  <%= link_to t('learn_more'), iran_path, :class => 'btn btn-default' %>-->
+                  <%= link_to image_tag("iran1.jpg", :alt => "", :class => "css"), iran_path %>
+<!--                  <p><%= t :iran_venue %> </p>-->
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4><i class="fa fa-fw fa-flag"></i> <%= t :india %> 2016</h4>
+                  <h4><i class="fa fa-fw fa-flag"></i> <%= t :india %> 2016.8.22-24</h4>
                 </div>
                 <div class="panel-body">
-                  <p><%= t :india_econ %> </p>
-                    <%= link_to t('learn_more'), india_path, :class => 'btn btn-default' %>
+                  <%= link_to image_tag("ind01.jpg", :alt => "", :class => "css"), india_path %>
+<!--                  <p><%= t :ind_venue %> </p>-->
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :brazil %> 2016</h4>
+                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :brazil %> 2016.10.6-9</h4>
                 </div>
                 <div class="panel-body">
-                    <p><%= t :brazil_econ %>  </p>
-                    <%= link_to t('learn_more'), brazil_path, :class => 'btn btn-default' %>
+                  <%= link_to image_tag("brazil1.jpg", :alt => "", :class => "css"), brazil_path %>
+<!--                  <p><%= t :bra_venue %> </p>-->
                 </div>
             </div>
         </div>
@@ -88,24 +90,24 @@
     <!-- Portfolio Section -->
     <div class="row">
         <div class="col-lg-12">
-          <h2 class="page-header"><%= t :exhibition %> </h2>
+          <h2 class="page-header"><%= t :exhibitions %> </h2>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smLED.jpg" alt="" title="L&E expo India 2016" >
-            <center><figcaption>L&E Expo</figcaption></center><br>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smLED.jpg" alt="" title="" >
+          <center><figcaption><%= t :led_exhibition %></figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smFurniture.jpg" alt="" title="IFFARE India 2016">
-            <center><figcaption>IFFARE</figcaption></center><br>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smFurniture.jpg" alt="" title="">
+          <center><figcaption><%= t :furniture_exhibition %></figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smMachinery.jpg" alt="" title="CIFE India 2016">
-            <center><figcaption>ACIFE</figcaption></center><br>
+            <img class="img-responsive img-portfolio img-hover" src="/assets/smMachinery.jpg" alt="" title="">
+          <center><figcaption><%= t :machinery_exhibition %></figcaption></center><br>
           <% end %>
         </div>
 <!--

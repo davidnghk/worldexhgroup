@@ -1,0 +1,32 @@
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header"><%= t :iran %>
+                <small>IFFARE 2016</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><%= link_to 'Home', root_path %>
+                </li>
+              <li class="active"><%= t :furniture %></li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Content Row -->
+    <div class="row">
+        <div class="col-lg-12">
+          <% if I18n.locale == :en %>
+                <img class="img-responsive img-hover img-related" src="/assets/伊朗家具en.jpg" alt="">
+          <% else %>
+                <img class="img-responsive img-hover img-related" src="/assets/伊朗家具zh.jpg" alt="">
+          <% end %> 
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->

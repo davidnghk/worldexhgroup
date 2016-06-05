@@ -33,3 +33,6 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'rubocop'
 end
+group :production do
+  gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+end

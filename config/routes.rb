@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     get "india" => "pages#portfolio-india"
     get "brazil" => "pages#portfolio-brazil"
     get "iran" => "pages#portfolio-iran"
+    get "eventIndLed" => "pages#eventIndLed"
   end
 end

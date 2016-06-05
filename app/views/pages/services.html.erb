@@ -4,13 +4,13 @@
     <!-- Page Heading/Breadcrumbs -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Services
+          <h1 class="page-header"><%= t :services %>
 <!--                <small>Subheading</small>-->
             </h1>
             <ol class="breadcrumb">
                 <li><%= link_to 'Home', root_path %>
                 </li>
-                <li class="active">Services</li>
+                <li class="active"><%= t :services %></li>
             </ol>
         </div>
     </div>
@@ -24,13 +24,15 @@
     </div>
     <!-- /.row -->
 
-    <!-- Service Panels -->
+  
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Services Panels</h2>
+          <h2 class="page-header"><%= t :services_panels %></h2>
         </div>
-        <div class="col-md-3 col-sm-6">
+
+        <div class="col-md-6 col-sm-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
                     <span class="fa-stack fa-5x">
@@ -39,13 +41,13 @@
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Visit</h4>
-                    <p>One-stop business visit arragement.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                  <h4><%= t :show_services %></h4>
+                    <p><%= t :show_services_company %></p>
+                    <%= mail_to "1345437070@qq.com", raw(image_tag("/assets/mail.png")) %>
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
                     <span class="fa-stack fa-5x">
@@ -54,12 +56,15 @@
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Freight</h4>
-                    <p>HExhibition freight forward services</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                  <h4><%= t :freight %></h4>
+                    <p><%= t :freight_company %></p>
+<!--                  <a href="#" class="btn btn-primary"><%= t :learn_more %></a>-->
+                  <%= mail_to "gabriel_chan2010@hotmail.com", raw(image_tag("/assets/mail.png")) %>
                 </div>
             </div>
         </div>
+
+<!--
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
@@ -90,7 +95,9 @@
                 </div>
             </div>
         </div>
+-->
     </div>
+
 
     <!-- Service Tabs -->
 <!--
