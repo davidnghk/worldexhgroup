@@ -31,13 +31,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="img-responsive" src="/assets/brastd01.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'brastd01.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/brastd03.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'brastd03.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/brastd02.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'brastd02.jpg' %>" alt="">
                     </div>
                 </div>
 
@@ -106,13 +106,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="img-responsive" src="/assets/braVenue1.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'braVenue1.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/braVenue2.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'braVenue2.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/braVenue3.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'braVenue3.jpg' %>" alt="">
                     </div>
                 </div>
 
@@ -144,9 +144,9 @@
             <a>
               <%= link_to page_path('eventBraLed') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西照明en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西照明en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西照明zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西照明zh.jpg' %>" alt="">
               <% end %> 
               <% end %> 
             </a>
@@ -156,9 +156,9 @@
             <a>
               <%= link_to page_path('eventBraFur') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西家具en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西家具en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西家具zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西家具zh.jpg' %>" alt="">
               <% end %>
               <% end %>
             </a>
@@ -168,9 +168,9 @@
             <a>
               <%= link_to page_path('eventBraMac') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西木机en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西木机en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/巴西木机zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '巴西木机zh.jpg' %>" alt="">
               <% end %>
               <% end %>
             </a>

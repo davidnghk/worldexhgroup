@@ -31,13 +31,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="img-responsive" src="/assets/indstd01.jpg" alt="">
+                      <img class="img-responsive" src="<%= image_path 'indstd01.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/indstd02.jpg" alt="">
+                      <img class="img-responsive" src="<%= image_path 'indstd02.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/indstd03.jpg" alt="">
+                      <img class="img-responsive" src="<%= image_path 'indstd03.jpg' %>" alt="">
                     </div>
                 </div>
 
@@ -102,13 +102,13 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="img-responsive" src="/assets/indVenue1.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'indVenue1.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/indVenue2.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'indVenue2.jpg' %>" alt="">
                     </div>
                     <div class="item">
-                        <img class="img-responsive" src="/assets/indVenue3.jpg" alt="">
+                        <img class="img-responsive" src="<%= image_path 'indVenue3.jpg' %>" alt="">
                     </div>
                 </div>
 
@@ -134,9 +134,9 @@
             <a>
               <%= link_to page_path('eventIndLed') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度照明en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度照明en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度照明zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度照明zh.jpg' %>" alt="">
               <% end %> 
             <% end %>
             </a>
@@ -146,9 +146,9 @@
             <a>
               <%= link_to page_path('eventIndFur') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度家具en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度家具en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度家具zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度家具zh.jpg' %>" alt="">
               <% end %>
               <% end %>
             </a>
@@ -158,9 +158,9 @@
             <a>
               <%= link_to page_path('eventIndMac') do %>
               <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度木机en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度木机en.jpg' %>" alt="">
               <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度木机zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度木机zh.jpg' %>" alt="">
               <% end %>
               <% end %>
             </a>

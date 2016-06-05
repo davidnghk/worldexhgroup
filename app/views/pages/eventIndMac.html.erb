@@ -21,9 +21,9 @@
     <div class="row">
         <div class="col-lg-12">
           <% if I18n.locale == :en %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度木机en.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度木机en.jpg' %>" alt="">
           <% else %>
-                <img class="img-responsive img-hover img-related" src="/assets/印度木机zh.jpg" alt="">
+                <img class="img-responsive img-hover img-related" src="<%= image_path '印度木机zh.jpg' %>" alt="">
           <% end %> 
         </div>
     </div>

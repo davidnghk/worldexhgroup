@@ -10,19 +10,20 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url(/assets/LED3.jpg);"></div>
+<!--            <div class="fill" style="background-image:url(/assets/LED3.jpg);"></div>-->
+          <div class="fill" style="background-image:url(<%= image_path 'LED3.jpg' %>);"></div>
             <div class="carousel-caption">
               <h2> <%= t :led_exhibition %> </h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url(/assets/furniture1.jpg);"></div>
+          <div class="fill" style="background-image:url(<%= image_path 'furniture1.jpg' %>);"></div>
             <div class="carousel-caption">
               <h2><%= t :furniture_exhibition %> </h2>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url(/assets/machinery3.jpg);"></div>
+          <div class="fill" style="background-image:url(<%= image_path 'machinery3.jpg' %>);"></div>
             <div class="carousel-caption">
               <h2> <%= t :machinery_exhibition %> </h2>
             </div>
@@ -94,19 +95,19 @@
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smLED.jpg" alt="" title="" >
+            <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smLED.jpg' %>" alt="" title="" >
           <center><figcaption><%= t :led_exhibition %></figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smFurniture.jpg" alt="" title="">
+          <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smFurniture.jpg'  %> " alt="" title="">
           <center><figcaption><%= t :furniture_exhibition %></figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-            <img class="img-responsive img-portfolio img-hover" src="/assets/smMachinery.jpg" alt="" title="">
+          <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smMachinery.jpg' %>" alt="" title="">
           <center><figcaption><%= t :machinery_exhibition %></figcaption></center><br>
           <% end %>
         </div>
