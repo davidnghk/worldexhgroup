@@ -2,6 +2,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+//custom change
+.navbar .nav>li>a {
+   color:  gold ;
+}
+.navbar {
+    background-color:darkblue;
+}
+.navbar .navbar-brand {
+    color: gold;
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;

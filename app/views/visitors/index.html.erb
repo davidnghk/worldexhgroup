@@ -52,13 +52,15 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h4><i class="fa fa-fw fa-flag"></i> <%= t :iran %> 2016.8.2-5</h4>
+<!--                  <div class="img-thumbnail flag flag-icon-background flag-icon-gb"></div>-->
+<!--                  <h4><%= image_tag 'iran.ico', :size => "32x32" %> 2016.8.2-5</h4>-->
+                  <h4><i class="fa fa-fw fa-flag"></i> <%= t :iran %> 2016.8.2-5</h4>
                 </div>
                 <div class="panel-body">
 <!--                  <p><%= t :iran_venue %> </p>-->
 <!--                    <a href="#" class="btn btn-default">Learn More</a>-->
 <!--                  <%= link_to t('learn_more'), iran_path, :class => 'btn btn-default' %>-->
-                  <%= link_to image_tag("iran1.jpg", :alt => "", :class => "css"), iran_path %>
+                  <%= link_to image_tag("iranFP.jpg", :alt => "", :class => "css"), iran_path %>
 <!--                  <p><%= t :iran_venue %> </p>-->
                 </div>
             </div>
@@ -94,6 +96,7 @@
           <h2 class="page-header"><%= t :exhibitions %> </h2>
         </div>
         <div class="col-md-4 col-sm-6">
+          <%= image_tag("logoLE.jpg", size: '128x128' ) %>
 <!--          <%= link_to page_path('portfolio-india') do %>-->
             <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smLED.jpg' %>" alt="" title="" >
           <center><figcaption><%= t :led_exhibition %></figcaption></center><br>
@@ -101,36 +104,19 @@
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
+              <%= image_tag("logoIFFARE.jpg", size: '105x105') %>
           <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smFurniture.jpg'  %> " alt="" title="">
           <center><figcaption><%= t :furniture_exhibition %></figcaption></center><br>
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-<!--          <%= link_to page_path('portfolio-india') do %>-->
+          <%= image_tag("logoWood.jpg", size: '142x142') %>
+<!--      <%= link_to page_path('portfolio-india') do %>-->
           <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smMachinery.jpg' %>" alt="" title="">
           <center><figcaption><%= t :machinery_exhibition %></figcaption></center><br>
           <% end %>
         </div>
-<!--
-        <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-brazil') do %>
-            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED4.jpg" alt="" title="L&E expo Brazil 2016">
-            <center><figcaption>L&E Expo Brazil 2016</figcaption></center><br>
-          <% end %>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-brazil') do %>
-            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED5.jpg" alt="" title="IFFARE Brazil 2016">
-            <center><figcaption>IFFARE Brazil 2016</figcaption></center><br>
-          <% end %>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <%= link_to page_path('portfolio-brazil') do %>
-            <img class="img-responsive img-portfolio img-hover" src="/assets/sm-LED6.jpg" alt="" title="CIFE expo Brazil 2016">
-            <center><figcaption>CIFE Expo Brazil 2016</figcaption></center><br>
-          <% end %>
-        </div>
--->
+
     </div>
     <!-- /.row -->
 
@@ -164,23 +150,108 @@
     <!-- /.row -->
 
     <hr>
+  
+  		<div id="fh5co-pricing-section" class="fh5co-pricing fh5co-lightgray-section">
+			<div class="container", style ='background-color: lightgrey'>
+				<div class="row" >
+					<div class="col-md-8 col-md-offset-2">
+						<div class="heading-section text-center animate-box">
+                          <h2><%= t :booth_price %></h2><br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="pricing", style ='background-color: white'>
+					<div class="col-md-4 animate-box popular">
+						<div class="price-box animate-box", style ='background-color: white; text-align: center'>
+							<h2 class="pricing-plan", style ='background-color: yellow'><%= t :iran %> <small>(2016.8.2-5)</small></h2>
+							<div class="price"><sup class="currency">
+                              US$ </sup>4,000</div>
+                            <div style ='text-align: center'>
+                              <h5><%= t :iran_venue %></h5><br>
+                            </div>
+                              <p><%= t :booth_size %></p>
+                              <p><%= t :booth_table %></p>
+                              <p><%= t :booth_cable_iran %></p>
+						      <p><%= t :booth_light_iran %></p>
+                              <p><%= t :booth_carpet %></p>
+                              <p><%= t :booth_fascia %></p><br>
+						</div>
+					</div>
 
+					<div class="col-md-4 animate-box">
+						<div class="price-box animate-box", style ='background-color: white; text-align: center'>
+                          <h2 class="pricing-plan", style ='background-color: yellow'><%= t :india %> <small>(2016.8.22-24)</small></h2>
+							<div class="price"><sup class="currency">
+                              US$ </sup>3,000</div>
+                            <div style ='text-align: center'>
+                              <h5><%= t :ind_venue %></h5><br>
+                            </div>
+                              <p><%= t :booth_size %></p>
+                              <p><%= t :booth_table %></p>
+                              <p><%= t :booth_cable %></p>
+						      <p><%= t :booth_light %></p>
+                              <p><%= t :booth_carpet %></p>
+                              <p><%= t :booth_fascia %></p><br>
+						</div>
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="price-box animate-box", style ='background-color: white; text-align: center' >
+							<h2 class="pricing-plan", style ='background-color: yellow'><%= t :brazil %> <small>(2016.10.6-9)</small></h2>
+							<div class="price"><sup class="currency">
+                              US$ </sup>5,600</div>
+                            <div style ='text-align: center'>
+                              <h5><%= t :bra_venue %></h5><br>
+                            </div>
+                              <p><%= t :booth_size %></p>
+                              <p><%= t :booth_table %></p>
+                              <p><%= t :booth_cable %></p>
+						      <p><%= t :booth_light %></p>
+                              <p><%= t :booth_carpet %></p>
+                              <p><%= t :booth_fascia %></p><br>
+						</div>
+					</div>
+
+				</div>
+				</div>
+			</div>
+		</div>
+  <br>
     <!-- Call to Action Section -->
-<!--
     <div class="well">
         <div class="row">
             <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+              <br>
+              <p><%= t :worldexh_enquiry %></p>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+              <%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %>
             </div>
         </div>
     </div>
--->
 
-</div>
 <!-- /.container -->
+
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                  <%= image_tag("logoCat.jpg", size: '136x136') %>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                  <%= image_tag("logoGewinn.jpg", size: '154x154') %>
+                </div>
+            </div>
+        </div>
+</div>
 
 <!-- Script to Activate the Carousel -->
 <script>
