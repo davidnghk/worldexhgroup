@@ -47,6 +47,11 @@
         <div class="col-lg-12">
             <h1 class="page-header">
               <%= t :worldexh %>
+<!--
+              <i class="fa fa-linkedin-square" aria-hidden="true" style="color:blue"></i>
+              <i class="fa fa-envelope" aria-hidden="true" style="color:blue"></i>
+              <i class="fa fa-weixin" aria-hidden="true" style="color:blue ">ABC</i>
+-->
             </h1>
         </div>
         <div class="col-md-4">
@@ -93,27 +98,27 @@
     <!-- Portfolio Section -->
     <div class="row">
         <div class="col-lg-12">
-          <h2 class="page-header"><%= t :exhibitions %> </h2>
+          <h2 class="page-header"><%= t :self_show %> </h2>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= image_tag("logoLE.jpg", size: '128x128' ) %>
+          <%= image_tag("logoLE.jpg", size: '256x256' ) %>
 <!--          <%= link_to page_path('portfolio-india') do %>-->
             <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smLED.jpg' %>" alt="" title="" >
-          <center><figcaption><%= t :led_exhibition %></figcaption></center><br>
+<!--          <center><figcaption><%= t :led_exhibition %></figcaption></center><br>-->
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
 <!--          <%= link_to page_path('portfolio-india') do %>-->
-              <%= image_tag("logoIFFARE.jpg", size: '105x105') %>
+              <%= image_tag("logoIFFARE.jpg", size: '208x208') %>
           <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smFurniture.jpg'  %> " alt="" title="">
-          <center><figcaption><%= t :furniture_exhibition %></figcaption></center><br>
+<!--          <center><figcaption><%= t :furniture_exhibition %></figcaption></center><br>-->
           <% end %>
         </div>
         <div class="col-md-4 col-sm-6">
-          <%= image_tag("logoWood.jpg", size: '142x142') %>
+          <%= image_tag("logoWood.jpg", size: '284x284') %>
 <!--      <%= link_to page_path('portfolio-india') do %>-->
           <img class="img-responsive img-portfolio img-hover" src="<%= image_path 'smMachinery.jpg' %>" alt="" title="">
-          <center><figcaption><%= t :machinery_exhibition %></figcaption></center><br>
+<!--          <center><figcaption><%= t :machinery_exhibition %></figcaption></center><br>-->
           <% end %>
         </div>
 
@@ -237,17 +242,40 @@
   
     <div class="row">
 
-        <div class="col-md-6 col-sm-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-body">
-                  <%= image_tag("logoCat.jpg", size: '136x136') %>
+        <div class="col-md-12 col-sm-12">
+            <div class="panel panel-default ">
+                <div class="list-inline text-center">
+                  <li><%= image_tag("cm1.jpg", size: '150x150') %></li>
+                  <li><%= image_tag("cm2.jpg", size: '90x90') %></li>
+                  <li><%= image_tag("cm4.jpg", size: '64x64') %></li>
+                  <li><%= image_tag("cm5.jpg", size: '64x64') %></li>
+                  <li><%= image_tag("cm6.png", size: '80x80') %></li>
+                  <li><%= image_tag("cm7.png", size: '64x64') %></li>
+                  <li><%= image_tag("cm8.png", size: '60x60') %></li>
+                  <li><%= image_tag("cm9.jpeg", size: '64x64') %></li>
+                  <li><%= image_tag("cm10.png", size: '80x80') %></li>
+                  <li><%= image_tag("cm11.png", size: '72x72') %></li>                
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-body">
-                  <%= image_tag("logoGewinn.jpg", size: '154x154') %>
+        <div class="col-md-12 col-sm-12">
+            <div class="panel panel-default ">
+                <div class="list-inline text-center" >
+                  <li><%= image_tag("op2.jpg", size: '180x180') %></li>
+                  <li><%= image_tag("op3.jpg", size: '120x120') %></li>
+                  <li><%= image_tag("op4.jpg", size: '164x164') %></li>
+                  <li><%= image_tag("op7.png", size: '210x210') %></li>
+                  <li><%= image_tag("op8.png", size: '180x180') %></li>              
+                </div>
+            </div>
+        </div>      
+        <div class="col-md-12 col-sm-12">
+            <div class="panel panel-default ">
+                <div class="list-inline text-center">
+                  <li><%= image_tag("sa1.jpg", size: '80x80') %></li>
+                  <li><%= image_tag("sa2.jpg", size: '110x110') %></li>
+                  <li><%= image_tag("sa3.jpg", size: '60x60') %></li>
+                  <li><%= image_tag("sa4.png", size: '140x140') %></li>            
                 </div>
             </div>
         </div>

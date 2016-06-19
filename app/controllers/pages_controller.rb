@@ -5,7 +5,13 @@ class PagesController < ApplicationController
   def brazil
   end
   
-  def shanghai
+  def iran
+  end
+  
+  def agency
+  end
+  
+  def trip
   end
   
   def eventIndLed

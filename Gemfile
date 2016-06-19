@@ -36,3 +36,4 @@ end
 group :production do
   gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
 end
+gem 'svg-flags-rails', '>= 1.0.0-beta'

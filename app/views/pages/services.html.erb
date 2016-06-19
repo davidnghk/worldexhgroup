@@ -32,10 +32,10 @@
           <h2 class="page-header"><%= t :services_panels %></h2>
         </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-4 col-sm-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-3x">
                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                           <i class="fa fa-street-view fa-stack-1x fa-inverse"></i>
                     </span>
@@ -51,10 +51,30 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-4 col-sm-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-3x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-money fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                  <h4><%= t :gov_sub %></h4><br>
+                  <p><%= t :gov_sub_address %></p>
+                  <p><%= t :gov_sub_contact %></p>
+                  <br><br>
+                  <p>Tel: +860 757-22381442</p>
+                  <p>QQ: 2310143242</p>
+                  <p>Email: 2310143242@qq.com</p>
+                  <%= mail_to "gabriel_chan2010@hotmail.com", raw(image_tag("mail.png")) %>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-3x">
                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
                           <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
                     </span>
@@ -66,7 +86,6 @@
                   <p>Tel: 0757-26687805</p>
                   <p>Fax: 0757-26687806</p>
                   <p>Email: gabriel_chan2010@hotmail.com</p>
-<!--                  <a href="#" class="btn btn-primary"><%= t :learn_more %></a>-->
                   <%= mail_to "gabriel_chan2010@hotmail.com", raw(image_tag("mail.png")) %>
                 </div>
             </div>

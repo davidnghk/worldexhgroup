@@ -31,13 +31,13 @@
 
     <!-- Overseas Team Members -->
     
+<!--
     <div class="row">
         <div class="col-lg-12">
           <h2 class="page-header"><%= t :sales_team %></h2>
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-<!--                <img class="img-responsive" src="http://placehold.it/750x450" alt="">-->
                 <div class="caption">
                     <h3><%= t :hongkong %><br>
                         <small>Michael Yeung</small>
@@ -57,7 +57,6 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-<!--                <img class="img-responsive" src="http://placehold.it/750x450" alt="">-->
                 <div class="caption">
                   <h3><%= t :india %><br>
                         <small>Swadesh Kumar</small>
@@ -77,7 +76,6 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-<!--                <img class="img-responsive" src="http://placehold.it/750x450" alt="">-->
                 <div class="caption">
                   <h3><%= t :southeastasia %><br>
                         <small>David</small>
@@ -95,46 +93,107 @@
                 </div>
             </div>
         </div>
+-->
 
       <!-- China Team Members -->
     
     <div class="row">
         <div class="col-lg-12">
-          <h2 class="page-header"><%= t :china_sales_team %></h2>
+          <h2 class="page-header"><%= t :sales_team %></h2>
         </div>
         <div class="col-md-3 text-center">
             <div class="thumbnail">
                 <div class="caption">
-                    <small><%= t :sales1 %></small><br><br>
-                    <p>13924821191</p>
-                    <p>1024875886@qq.com</p>
+                  <%= image_tag 'HongKongFlag.ico', width: 64, alt: 'HK' %>
+                  <small><%= t :office1 %></small><br><br>
+                    <small><%= t :office1_address1 %></small>
+                    <small><%= t :office1_address2 %></small>
+                    <p>+852 9347-8666</p>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
                 </div>
             </div>
         </div>
         <div class="col-md-3 text-center">
             <div class="thumbnail">
                 <div class="caption">
-                    <small><%= t :sales2 %></small><br><br>
+                    <%= image_tag 'ChinaFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office2 %> </small><br><br>
+                    <small><%= t :office2_address1 %></small>
+                    <small><%= t :office2_address2 %></small>
+                    <p>+86 757-22216272</p>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="thumbnail">
+                <div class="caption">
+                    <%= image_tag 'ChinaFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office3 %> </small><br><br>
+                    <small><%= t :office3_address1 %></small>
+                    <small><%= t :office3_address2 %></small>
+                    <p>+86 757-22216272</p>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="thumbnail">
+                <div class="caption">
+                  <%= image_tag 'MalaysiaFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office4 %> </small><br><br>
+                    <small><%= t :office4_address1 %></small>
+                    <small><%= t :office4_address2 %></small>
+                    <p></p>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
+                </div>
+            </div>
+        </div>
+              <div class="col-md-3 text-center">
+            <div class="thumbnail">
+                <div class="caption">
+                  <%= image_tag 'IranFlag.ico', width: 64, alt: 'HK' %>
+                  <small><%= t :office5 %></small><br><br>
+                    <small><%= t :office5_address1 %></small>
+                    <small><%= t :office5_address2 %></small> 
+                    <p> </p><br>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-center">
+            <div class="thumbnail">
+                <div class="caption">
+                  <%= image_tag 'IndiaFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office6 %> </small><br><br>
+                    <small><%= t :office6_address1 %></small>
+                    <small><%= t :office6_address2 %></small>
                     <p>18575893992</p>
-                    <p>2423121760@qq.com </p>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
                 </div>
             </div>
         </div>
         <div class="col-md-3 text-center">
             <div class="thumbnail">
                 <div class="caption">
-                    <small><%= t :sales3 %></small><br><br>
-                    <p>13794640757</p>
-                    <p>1730720599@qq.com </p>
+                  <%= image_tag 'IndonesiaFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office7 %> </small><br><br>
+                    <small><%= t :office7_address1 %></small>
+                    <small><%= t :office7_address2 %></small>
+                    <p></p><br>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
                 </div>
             </div>
         </div>
         <div class="col-md-3 text-center">
             <div class="thumbnail">
                 <div class="caption">
-                    <small><%= t :sales4 %></small><br><br>
-                    <p>15015566028</p>
-                    <p>541048561@qq.com</p>
+                  <%= image_tag 'MacauFlag.ico', width: 64, alt: 'HK' %>
+                    <small><%= t :office8 %> </small><br><br>
+                    <small><%= t :office8_address1 %></small>
+                    <small><%= t :office8_address2 %></small>
+                    <p></p><br>
+                    <p><%= mail_to "michael@trade-ok.net", raw(image_tag("mail.png")) %></p>
                 </div>
             </div>
         </div>

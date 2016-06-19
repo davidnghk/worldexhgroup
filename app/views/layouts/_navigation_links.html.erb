@@ -1,8 +1,11 @@
 <%# add navigation links to this file %>
-        <li><%= link_to t('contact'), page_path('about') %></li>
-        <li><%= link_to t('services'), page_path('services') %></li>
-        <li><%= link_to 'English', url_for( :locale => 'en' ) %></li>         
-        <li><%= link_to '中文', url_for( :locale => 'zh' ) %></li>
+  <li><%= link_to t('self_show'), root_path %></li>
+<li><%= link_to t('partner_show'), agency_path %></li>
+<li><%= link_to t('business_trip'), trip_path %></li>
+  <li><%= link_to t('contact'), page_path('about') %></li>
+  <li><%= link_to t('services'), page_path('services') %></li>
+  <li><%= link_to 'English', url_for( :locale => 'en' ) %></li>         
+  <li><%= link_to '中文', url_for( :locale => 'zh' ) %></li>
 
 <!--         <li><%= link_to 'Contact', page_path('contact') %></li> -->
 <!--
