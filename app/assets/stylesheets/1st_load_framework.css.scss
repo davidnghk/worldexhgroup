@@ -3,11 +3,15 @@
 @import "bootstrap";
 
 //custom change
+.icon-weixin {
+  color:green
+}
+
 .navbar .nav>li>a {
    color:  black ;
 }
 .navbar {
-    background-color: gold;
+  background-color: goldenrod;
 }
 .navbar .navbar-brand {
     color: black;
