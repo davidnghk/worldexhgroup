@@ -86,7 +86,7 @@ zh:
   freight_company: "丹迪国际货运代理有限公司"
   show_services: "世博服务"
   show_services_company: "广东世博展旅会展服务有限公司"
-  copy_right_worldexh: "版权 © 世博服务 2016"
+  copy_right_worldexh: "版权 © 世博集团 2016"
   
   booth_size: "9 平方米"
   booth_table: "1桌 2椅"
@@ -110,7 +110,7 @@ zh:
   
   self_show: "海外自办展"
   partner_show: "海外协办展"
-  business_trip: "海外考察团"
+  business_trip: "海外商务考察团"
   
   download_brochure: "下载展览会手册"
   office: "办公室"
@@ -126,7 +126,7 @@ zh:
   office1_address1: "香港九龙红磡德丰街22"
   office1_address2: "海濱廣場二座202-204A"
   office2_address1: "中国佛山顺德区大良"
-  office2_address2: "石洛路19号13楼"
+  office2_address2: "石洛路19号3楼"
   office3_address1: "中国广州海珠区新港东路"
   office3_address2: "黄埔村杨青外街18巷6号"
   office4_address1: "Lot 1716, Shungi Long, Batu 11"
@@ -147,3 +147,5 @@ zh:
   china_media_partners: "中国媒体伙伴"
   overseas_media_partners: "海外媒体伙伴"
   supporting_associations: "赞助协会"
+  
+  contact_us: "关注我们"

@@ -219,18 +219,20 @@
 		</div>
   <br>
     <!-- Call to Action Section -->
+    <h3><%= t :contact_us %></h3>
     <div class="well">
         <div class="row">
             <div class="col-md-9">
-              <br><br>
               <p><%= t :worldexh_enquiry %></p>
             </div>
             <div class="col-md-1">
               <a href="https://facebook.com/michael.yeung.94"><i class="fa fa-facebook-square fa-4x" ></i></a>
+            </div>
+            <div class="col-md-1">
               <a href="#"><i class="fa fa-weixin fa-4x icon-weixin" ></i></a>
             </div>
-            <div class="col-md-2">
-              <img  src="<%= image_path('WeChatWorldexh.jpg', size: '40x40') %>" border="0" alt="" title="WeChat" >
+            <div class="col-md-1">
+              <img  src="<%= image_path('WeChatWorldexh.jpg', size: '20x20') %>" border="0" alt="" title="WeChat" >
             </div>
         </div>
     </div>
@@ -245,17 +247,21 @@
             <p><%= t :china_media_partners %></p>
             <div class="panel panel-default ">
                 <div class="list-inline text-center">
-                  <li><%= image_tag("cm1.jpg", size: '120x120') %></li>
-                  <li><%= image_tag("cm2.jpg", size: '85x85') %></li>
-                  <li><%= image_tag("cm3.jpg", size: '65x65') %></li>
-                  <li><%= image_tag("cm4.jpg", size: '64x64') %></li>
-                  <li><%= image_tag("cm5.jpg", size: '64x64') %></li>
-                  <li><%= image_tag("cm6.png", size: '80x80') %></li>
-                  <li><%= image_tag("cm7.png", size: '60x60') %></li>
-                  <li><%= image_tag("cm8.png", size: '56x56') %></li>
-                  <li><%= image_tag("cm9.jpg", size: '60x60') %></li>
-                  <li><%= image_tag("cm10.png", size: '75x75') %></li>
-                  <li><%= image_tag("cm11.png", size: '65x65') %></li>                
+                  <li><%= link_to 'http://www.jjcl.com.cn' do %>
+                        <%= image_tag("jjcl.jpg", size: '170x170') %>
+                      <% end %>
+                  </li>
+                  <li><%= image_tag("cm1.jpg", size: '180x180') %></li>
+                  <li><%= image_tag("cm2.jpg", size: '120x120') %></li>
+                  <li><%= image_tag("cm3.jpg", size: '100x100') %></li>
+                  <li><%= image_tag("cm4.jpg", size: '90x90') %></li>
+                  <li><%= image_tag("cm5.jpg", size: '90x90') %></li>
+                  <li><%= image_tag("cm6.png", size: '140x140') %></li>
+                  <li><%= image_tag("cm7.png", size: '80x80') %></li>
+                  <li><%= image_tag("cm8.png", size: '80x80') %></li>
+                  <li><%= image_tag("cm9.jpg", size: '80x80') %></li>
+                  <li><%= image_tag("cm10.png", size: '105x105') %></li>
+                  <li><%= image_tag("cm11.png", size: '85x85') %></li>                
                 </div>
             </div>
         </div>

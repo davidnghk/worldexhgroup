@@ -83,7 +83,7 @@ en:
   freight_company: "Foshan Done Deal International Freight Forwarder Co., Ltd"
   show_services: "Services"
   show_services_company: "WG Expo-Tourist Co., Ltd."
-  copy_right_worldexh: "Copyright © WorldExh 2016"
+  copy_right_worldexh: "Copyright © WorldExhGroup 2016"
   
   booth_size: "9 sqm"
   booth_table: "1 table and 2 chairs"
@@ -110,7 +110,7 @@ en:
   
   self_show: "Overseas Exhibitions"
   partner_show: "Overseas Agency Shows"
-  business_trip: "Overseas Trips"
+  business_trip: "Overseas Business Trips"
   trip_date: "Departure Date"
   
   download_brochure: "Download Brochure"
@@ -142,3 +142,4 @@ en:
   office8_address2: "Carlos d'Assumpcao, Macau"
   
   I_join: "Joining"
+  contact_us: "Connect with us"
