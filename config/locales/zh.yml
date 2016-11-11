@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 zh:
+  Home: "主頁"
+  notice: "致歉聲明"
   hello: "Hello world"
   edit_account: "编辑帐户"
   sign_out: "登出"
